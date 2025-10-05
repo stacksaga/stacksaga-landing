@@ -14,6 +14,7 @@ const nextConfig = {
     },
     basePath: isProd ? `/${repositoryName}` : '',
     assetPrefix: isProd ? `/${repositoryName}/` : '',
+    unoptimized: true
 }
 
 export default nextConfig
