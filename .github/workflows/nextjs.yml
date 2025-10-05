@@ -1,41 +1,44 @@
-name: Deploy to GitHub Pages
-
+ name: pnpm Example Workflow
 on:
-  push:
-    branches:
-      - master  # or 'master' if that's your default branch
+  push: 
+  branches: [ master]
 
-permissions:
-  contents: write  # needed for actions-gh-pages to push to gh-pages
-  pages: write
-  id-token: write
+ permissions:
+   contents: read
+   pages: write
+   id-token: write
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+ jobs:
+   build:
+    environment:
+    name: github-pages
+  url: ${{steps.deployment.outputs.page_url}}
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install pnpm
-        run: npm install -g pnpm
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build
-        run: pnpm run build
-      - name : show files
-        run: ls
-        
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use PAT if you get 403 error
-          publish_dir: ./out
+strategy:
+  matrix:
+    node-version: [18]
+steps:
+  - uses: actions/checkout@v3
+  - uses: pnpm/action-setup@v2
+    with:
+      version: 7
+  - name: Use Node.js ${{ matrix.node-version }}
+    uses: actions/setup-node@v3
+    with:
+      node-version: ${{ matrix.node-version }}
+      cache: pnpm
+  - name: Install dependencies
+    run: pnpm install
+  - name: Build
+    run: pnpm run build
+  - name: Setup Pages
+    uses: actions/configure-pages@v3
+  - name: Upload artifact
+    uses: actions/upload-pages-artifact@v1
+    with:
+      # Upload dist repository
+       path: ./out
+  - name: Deploy to GitHub Pages
+    id: deployment
+    uses: actions/deploy-pages@v1
