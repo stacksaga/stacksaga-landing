@@ -129,7 +129,7 @@ export default function AboutUsPage() {
                 <strong>Company:</strong> StackSaga
               </li>
               <li>
-                <strong>Email:</strong> [email protected]
+                <strong>Email:</strong> info@stacksaga.org
               </li>
               <li>
                 <strong>Website:</strong>{" "}

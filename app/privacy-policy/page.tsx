@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
               ads.
             </li>
             <li>
-              <strong>Contact Information:</strong> If you voluntarily email us at [email protected], we may collect
+              <strong>Contact Information:</strong> If you voluntarily email us at info@stacksaga.org, we may collect
               your name and email to respond to your inquiry.
             </li>
           </ul>
@@ -141,7 +141,7 @@ export default function PrivacyPolicyPage() {
           <p className="leading-relaxed">If you have questions about this Privacy Policy, please contact us at:</p>
           <ul className="list-none space-y-2">
             <li>
-              <strong>Email:</strong> [email protected]
+              <strong>Email:</strong> info@stacksaga.org
             </li>
             <li>
               <strong>Website:</strong>{" "}
