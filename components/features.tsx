@@ -61,7 +61,7 @@ export function Features() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://stacksaga.org/"
+                href="https://docs.stacksaga.org/stacksaga/latest/foundations/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors whitespace-nowrap"

@@ -32,8 +32,13 @@ export function Frameworks() {
                         <div className="space-y-3 mb-6">
                             <div className="flex items-start gap-2">
                                 <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"/>
+                                <span className="text-sm text-muted-foreground">Spring Boot MVC & WebFlux support</span>
+                            </div>
+                            <div className="flex items-start gap-2">
+                                <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"/>
                                 <span className="text-sm text-muted-foreground">Request-response pattern support</span>
                             </div>
+
                             <div className="flex items-start gap-2">
                                 <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"/>
                                 <span
@@ -70,6 +75,10 @@ export function Frameworks() {
                         </p>
 
                         <div className="space-y-3 mb-6">
+                            <div className="flex items-start gap-2">
+                                <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"/>
+                                <span className="text-sm text-muted-foreground">Spring Boot MVC & WebFlux support</span>
+                            </div>
                             <div className="flex items-start gap-2">
                                 <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"/>
                                 <span className="text-sm text-muted-foreground">Event-driven architecture</span>

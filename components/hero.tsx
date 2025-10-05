@@ -32,7 +32,7 @@ export function Hero() {
             </Link>
           </Button>
           <Button size="lg" variant="outline" className="gap-2 bg-transparent" asChild>
-            <Link href="https://stacksaga.org/" target="_blank">
+            <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
               <BookOpen className="h-4 w-4" />
               Read Documentation
             </Link>
