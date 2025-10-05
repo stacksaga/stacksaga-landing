@@ -31,9 +31,11 @@ jobs:
 
       - name: Build
         run: pnpm run build
-
+      - name : show files
+        run: ls
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Use PAT if you get 403 error
-          publish_dir: ./build
+          publish_dir: ./out
