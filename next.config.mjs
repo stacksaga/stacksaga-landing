@@ -10,7 +10,7 @@ const nextConfig = {
     images: {
         unoptimized: false,
     },
-    basePath: '/your-repo-name',
+    basePath: '/stacksaga-landing',
 }
 
 export default nextConfig
