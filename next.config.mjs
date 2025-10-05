@@ -10,7 +10,6 @@ const nextConfig = {
     images: {
         unoptimized: false,
     },
-    basePath: '/stacksaga-landing',
 }
 
 export default nextConfig
