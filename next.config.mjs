@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+const repositoryName = 'stacksaga-landing'
 const nextConfig = {
     output: 'export',
     eslint: {
@@ -10,7 +12,8 @@ const nextConfig = {
     images: {
         unoptimized: false,
     },
-    basePath: '/stacksaga-landing'
+    basePath: isProd ? `/${repositoryName}` : '',
+    assetPrefix: isProd ? `/${repositoryName}/` : '',
 }
 
 export default nextConfig
