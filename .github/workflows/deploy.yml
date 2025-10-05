@@ -67,8 +67,7 @@ jobs:
       # Build and export the static Next.js site
       - name: Build with Next.js and Static Export
         run: |
-          pnpm run build 
-          pnpm next export
+          pnpm run build
       
       # This step creates the necessary .nojekyll file
       - name: Create .nojekyll file
