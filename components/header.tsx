@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Heart } from "lucide-react"
+import image from "../public/stacksaga-icon.svg";
 
 export function Header() {
   return (
@@ -9,7 +10,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/stacksaga-icon.svg" alt="StackSaga Icon" width={32} height={32} className="h-8 w-8" />
+            <Image src={image} alt="StackSaga Icon" width={32} height={32} className="h-8 w-8" />
             <span className="text-xl font-bold font-[family-name:var(--font-poppins)]">StackSaga</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
