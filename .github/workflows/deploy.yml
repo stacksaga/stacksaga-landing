@@ -3,10 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # or 'master' if that's your default branch
 
 permissions:
-  contents: read
+  contents: write  # needed for actions-gh-pages to push to gh-pages
   pages: write
   id-token: write
 
@@ -35,5 +35,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use PAT if you get 403 error
           publish_dir: ./build
