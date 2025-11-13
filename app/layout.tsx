@@ -7,7 +7,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
     title: "StackSaga - Java Framework for Saga Pattern",
-    description: "StackSaga is a spring boot compatible totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
+    description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
     keywords: [
         "spring boot",
         "stacksaga",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
             }
         ],
         title: "StackSaga - Java Framework for Saga Pattern",
-        description: "StackSaga is a spring boot compatible totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
+        description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
         url: "https://www.stacksaga.org",
         emails: "info@stacksaga.org",
     }

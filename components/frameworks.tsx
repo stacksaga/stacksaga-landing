@@ -2,10 +2,14 @@ import {Card} from "@/components/ui/card"
 import {Button} from "@/components/ui/button"
 import {ArrowRight, Workflow, Zap} from "lucide-react"
 import Link from "next/link"
+import {metadata} from "@/app/layout";
 
 export function Frameworks() {
     return (
         <section id="frameworks" className="py-20 px-4 bg-card/30">
+            <p style={{display: "none"}}>
+                {metadata.description}
+            </p>
             <div className="container mx-auto max-w-6xl">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold mb-4">Choose Your Implementation</h2>
