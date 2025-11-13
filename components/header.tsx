@@ -24,7 +24,7 @@ export function Header() {
               Frameworks
             </Link>
             <Link
-              href="https://stacksaga.org/"
+              href="https://docs.stacksaga.org/"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
