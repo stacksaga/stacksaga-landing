@@ -12,11 +12,11 @@ export function Hero() {
 
       <div className="container mx-auto max-w-5xl text-center">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-border bg-card text-sm text-muted-foreground">
-          100% Free • No Cost • No License Fees
+          100% Free • Spring Boot Support • No License Fees
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-          Spring boot Framework for <span className="text-accent">Saga Pattern</span>
+          Production-Ready <span className="text-accent">Saga Orchestration</span> for Microservices
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-pretty leading-relaxed">
@@ -40,8 +40,8 @@ export function Hero() {
         </div>
 
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary/50 border border-border font-mono text-sm">
-          <span className="text-muted-foreground">$</span>
-          <span>mvn install org.stacksaga:stacksaga-framework</span>
+          <span className="text-muted-foreground">// Maven</span>
+          <span>org.stacksaga : stacksaga-framework</span>
         </div>
       </div>
     </section>

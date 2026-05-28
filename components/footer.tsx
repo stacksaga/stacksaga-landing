@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Code2, Github, Twitter } from "lucide-react"
+import { Code2, Github } from "lucide-react"
 
 export function Footer() {
   return (
@@ -40,7 +40,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://stacksaga.org/"
+                  href="https://github.com/stacksaga/stacksaga-spring-boot-project/discussions"
                   target="_blank"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
@@ -97,9 +97,6 @@ export function Footer() {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Github className="h-5 w-5" />
-            </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Twitter className="h-5 w-5" />
             </Link>
           </div>
         </div>

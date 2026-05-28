@@ -6,7 +6,7 @@ import {Suspense} from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-    title: "StackSaga - Java Framework for Saga Pattern",
+    title: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
     description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
     keywords: [
         "spring boot",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
                 url: "https://stacksaga.org/images/stacksaga.jpg"
             }
         ],
-        title: "StackSaga - Java Framework for Saga Pattern",
+        title: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
         description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
         url: "https://www.stacksaga.org",
         emails: "info@stacksaga.org",

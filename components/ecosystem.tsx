@@ -24,7 +24,7 @@ export function Ecosystem() {
     {
       icon: Layers,
       title: "Event Sourcing Support",
-      description: "Optional event sourcing capabilities for complete audit trails and temporal queries.",
+      description: "Built-in event-sourcing capabilities for complete audit trails and temporal queries. Uses your existing database — no separate event store needed.",
       features: ["Event store integration", "Audit logging", "Time-travel debugging"],
     },
   ]
