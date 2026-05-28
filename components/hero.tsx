@@ -20,8 +20,7 @@ export function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-pretty leading-relaxed">
-          Manage long-running transactions in microservice architectures with reliability and ease. StackSaga is
-          completely free to use with battle-tested implementations for both synchronous and event-driven patterns.
+          Engineered for <span className="text-foreground font-medium">large-scale enterprise microservices</span> — manage complex, long-running distributed transactions with eventual consistency, automatic compensation, and full observability. Free to use with battle-tested implementations for both synchronous and event-driven patterns.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
