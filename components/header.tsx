@@ -84,7 +84,7 @@ export function Header() {
               Frameworks
             </Link>
             <Link
-              href="https://stacksaga.org/"
+              href="https://docs.stacksaga.org/"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
@@ -99,7 +99,7 @@ export function Header() {
               Features
             </Link>
             <Link
-              href="https://stacksaga.org/"
+              href="https://stackoverflow.com/questions/tagged/stacksaga?tab=Newest"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
