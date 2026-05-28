@@ -60,7 +60,7 @@ export function Header() {
             </Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="https://stacksaga.org/" target="_blank">
+            <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
               Get Started
             </Link>
           </Button>
@@ -124,7 +124,7 @@ export function Header() {
                 </Link>
               </Button>
               <Button size="sm" asChild>
-                <Link href="https://stacksaga.org/" target="_blank">
+                <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
                   Get Started
                 </Link>
               </Button>

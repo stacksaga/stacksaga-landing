@@ -26,7 +26,7 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <Button size="lg" className="gap-2" asChild>
-            <Link href="https://stacksaga.org/" target="_blank">
+            <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
               Get Started
               <ArrowRight className="h-4 w-4" />
             </Link>
