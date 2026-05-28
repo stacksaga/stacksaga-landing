@@ -12,8 +12,8 @@ export function Footer() {
               <span className="text-xl font-bold">StackSaga</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
-              A powerful Java framework for orchestrating long-running transactions in microservice architectures using
-              the Saga pattern.
+              A production-ready Saga orchestration framework for Spring Boot microservices. Built and maintained by{" "}
+              <span className="text-foreground font-medium">Zoftstack Lanka Private Limited</span>.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col md:flex-row items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} StackSaga. All rights reserved.
+              © {new Date().getFullYear()} Zoftstack Lanka Private Limited. All rights reserved.
             </p>
             <div className="flex items-center gap-4 text-sm">
               <Link href="/privacy-policy" className="text-muted-foreground hover:text-foreground transition-colors">

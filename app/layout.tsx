@@ -7,26 +7,42 @@ import "./globals.css"
 
 export const metadata: Metadata = {
     title: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
-    description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
+    description: "StackSaga is a free, production-ready Saga orchestration framework for Spring Boot. Manage long-running distributed transactions in microservices with built-in compensation, retry agents, and transaction tracing.",
     keywords: [
-        "spring boot",
-        "stacksaga",
-        "stack saga",
         "StackSaga",
-        "Saga orchestrator",
-        "Saga pattern",
+        "stack saga",
+        "saga orchestration",
+        "saga pattern",
+        "saga orchestrator",
+        "spring boot",
+        "spring boot saga",
+        "spring boot microservices",
+        "spring boot integration",
         "long-running transactions",
+        "distributed transactions",
         "microservices",
         "transaction management",
-        "spring boot integration",
-        "distributed transactions",
         "event-driven architecture",
-        "hybrid orchestration"
+        "kafka saga",
+        "compensation transaction",
+        "distributed saga pattern",
+        "spring microservices",
+        "hybrid orchestration",
+        "eventual consistency"
     ],
-    generator: "v0.app",
     authors: [
-        {name: "Mafei", url: "https://github.com/mafei-dev"}
+        {name: "Zoftstack Lanka Private Limited", url: "https://www.stacksaga.org"},
+        {name: "Mafei (Tharindu Kalhara)", url: "https://github.com/mafei-dev"}
     ],
+    creator: "Mafei (Tharindu Kalhara)",
+    publisher: "Zoftstack Lanka Private Limited",
+    robots: {
+        index: true,
+        follow: true,
+    },
+    alternates: {
+        canonical: "https://www.stacksaga.org",
+    },
     icons: {
         icon: "./fav/favicon.ico",
         shortcut: "./fav/favicon-16x16.png",
@@ -37,14 +53,23 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://stacksaga.org/images/stacksaga.jpg"
+                url: "https://stacksaga.org/images/stacksaga.jpg",
+                width: 1200,
+                height: 630,
+                alt: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
             }
         ],
         title: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
-        description: "StackSaga is a spring boot compatible and, totally Free to use Saga orchestrator framework that simplifies long-running transaction management using the Saga pattern, offering a scalable and fault-tolerant approach to microservices.",
+        description: "StackSaga is a free, production-ready Saga orchestration framework for Spring Boot. Manage long-running distributed transactions in microservices with built-in compensation, retry agents, and transaction tracing.",
         url: "https://www.stacksaga.org",
-        emails: "info@stacksaga.org",
-    }
+        siteName: "StackSaga",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "StackSaga - Production-Ready Saga Orchestration for Spring Boot",
+        description: "StackSaga is a free, production-ready Saga orchestration framework for Spring Boot. Manage long-running distributed transactions in microservices with built-in compensation, retry agents, and transaction tracing.",
+        images: ["https://stacksaga.org/images/stacksaga.jpg"],
+    },
 }
 
 export default function RootLayout({

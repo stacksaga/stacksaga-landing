@@ -122,11 +122,36 @@ export default function AboutUsPage() {
           </section>
 
           <section className="mb-12">
+            <h2 className="text-2xl font-semibold mb-4">Maintained By</h2>
+            <div className="not-prose flex items-center gap-4 p-6 rounded-lg border border-border bg-card">
+              <div className="flex-shrink-0 h-14 w-14 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center">
+                <Shield className="h-7 w-7 text-accent" />
+              </div>
+              <div>
+                <p className="text-lg font-semibold">Zoftstack Lanka Private Limited</p>
+                <p className="text-sm text-muted-foreground">Official maintainer &amp; sponsor of the StackSaga ecosystem</p>
+                <p className="text-sm text-muted-foreground mt-1">
+                  Founded by{" "}
+                  <a
+                    href="https://github.com/mafei-dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:underline"
+                  >
+                    Mafei (Tharindu Kalhara)
+                  </a>
+                  , Core Developer of StackSaga.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <p className="leading-relaxed">If you have questions, feedback, or want to collaborate, reach us at:</p>
             <ul className="list-none space-y-2 mt-4">
               <li>
-                <strong>Company:</strong> StackSaga
+                <strong>Company:</strong> Zoftstack Lanka Private Limited
               </li>
               <li>
                 <strong>Email:</strong> info@stacksaga.org
