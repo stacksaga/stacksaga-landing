@@ -1,5 +1,5 @@
 import type React from "react"
-import type {Metadata} from "next"
+import type {Metadata, Viewport} from "next"
 import {GeistSans} from "geist/font/sans"
 import {GeistMono} from "geist/font/mono"
 import {Suspense} from "react"
@@ -48,7 +48,6 @@ export const metadata: Metadata = {
         shortcut: "./fav/favicon-16x16.png",
         apple: "./fav/apple-touch-icon.png",
     },
-    themeColor: "#28b76b",
     openGraph: {
         type: "website",
         images: [
@@ -70,6 +69,10 @@ export const metadata: Metadata = {
         description: "StackSaga is a free, production-ready Saga orchestration framework for Spring Boot. Manage long-running distributed transactions in microservices with built-in compensation, retry agents, and transaction tracing.",
         images: ["https://stacksaga.org/images/stacksaga.jpg"],
     },
+}
+
+export const viewport: Viewport = {
+    themeColor: "#28b76b",
 }
 
 export default function RootLayout({
