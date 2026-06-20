@@ -34,6 +34,13 @@ export function Header() {
               Features
             </Link>
             <Link
+              href="https://initializer.stacksaga.org"
+              target="_blank"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Initializer
+            </Link>
+            <Link
               href="https://stackoverflow.com/questions/tagged/stacksaga?tab=Newest"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -97,6 +104,14 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Features
+            </Link>
+            <Link
+              href="https://initializer.stacksaga.org"
+              target="_blank"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Initializer
             </Link>
             <Link
               href="https://stackoverflow.com/questions/tagged/stacksaga?tab=Newest"

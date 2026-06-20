@@ -5,6 +5,7 @@ import { Features } from "@/components/features"
 import { Frameworks } from "@/components/frameworks"
 import { Benefits } from "@/components/benefits"
 import { Ecosystem } from "@/components/ecosystem"
+import { Initializer } from "@/components/initializer"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Frameworks />
       <Benefits />
       <Ecosystem />
+      <Initializer />
       <Features />
       <Footer />
     </main>
