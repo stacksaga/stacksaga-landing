@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 px-4 overflow-hidden">
+    <section className="relative pt-32 pb-10 px-4 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
@@ -36,11 +36,6 @@ export function Hero() {
               Read Documentation
             </Link>
           </Button>
-        </div>
-
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary/50 border border-border font-mono text-sm">
-          <span className="text-muted-foreground">// Maven</span>
-          <span>org.stacksaga : stacksaga-framework</span>
         </div>
       </div>
     </section>
