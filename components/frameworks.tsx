@@ -99,7 +99,7 @@ export function Frameworks() {
 
                         <Button variant="outline" className="w-full gap-2 bg-transparent" asChild>
                             <Link
-                                href="https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-kafka/overview.html"
+                                href="https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-kafka-implementation/index.html"
                                 target="_blank">
                                 Learn More
                                 <ArrowRight className="h-4 w-4"/>
