@@ -3,6 +3,7 @@ import type {Metadata, Viewport} from "next"
 import {GeistSans} from "geist/font/sans"
 import {GeistMono} from "geist/font/mono"
 import {Suspense} from "react"
+import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -83,6 +84,18 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-LJFGXZ1SXD"
+            strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-LJFGXZ1SXD');
+            `}
+        </Script>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         </body>
         </html>
