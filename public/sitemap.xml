@@ -57,7 +57,7 @@
     </url>
     <!-- StackSaga Framework (Synchronous) -->
     <url>
-        <loc>https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-sync/overview.html</loc>
+        <loc>https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-sync/index.html</loc>
         <lastmod>2026-06-20T00:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
