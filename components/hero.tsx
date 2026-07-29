@@ -16,7 +16,7 @@ export function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-          Production-Ready <span className="text-accent">Saga Orchestration</span> for Microservices
+          Ultimate Solution for <span className="text-accent">Saga Orchestration</span> in Microservices
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-pretty leading-relaxed">
