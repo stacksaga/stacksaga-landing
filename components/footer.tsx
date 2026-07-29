@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-xl font-bold">StackSaga</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
-              The ultimate solution for Saga orchestration in Spring Boot microservices. Built and maintained by{" "}
+              The ultimate Saga orchestration solution for Spring Boot microservices, covering every distributed transaction need out of the box. Built and maintained by{" "}
               <span className="text-foreground font-medium">Zoftstack Lanka Private Limited</span>.
             </p>
           </div>

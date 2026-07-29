@@ -16,11 +16,11 @@ export function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-          Ultimate Solution for <span className="text-accent">Saga Orchestration</span> in Microservices
+          The Ultimate <span className="text-accent">Saga Orchestration</span> Solution for Microservices
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-pretty leading-relaxed">
-          Engineered for <span className="text-foreground font-medium">large-scale enterprise microservices</span> — manage complex, long-running distributed transactions with eventual consistency, automatic compensation, and full observability. Free to use with battle-tested implementations for both synchronous and event-driven patterns.
+          Everything you need to manage complex, long-running distributed transactions in <span className="text-foreground font-medium">large-scale enterprise microservices</span> — eventual consistency, automatic compensation, and full observability, built in from day one. Free forever, with battle-tested implementations for both synchronous and event-driven architectures.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
