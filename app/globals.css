@@ -122,3 +122,94 @@
     @apply bg-background text-foreground;
   }
 }
+
+.license-content h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--foreground);
+}
+
+.license-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid color-mix(in oklch, var(--border) 60%, transparent);
+  color: var(--foreground);
+}
+
+.license-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+}
+
+.license-content p {
+  color: var(--muted-foreground);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  font-size: 0.9375rem;
+}
+
+.license-content strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.license-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: var(--muted-foreground);
+  font-size: 0.9375rem;
+}
+
+.license-content ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: var(--muted-foreground);
+  font-size: 0.9375rem;
+}
+
+.license-content li {
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+}
+
+.license-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  word-break: break-all;
+  transition: opacity 0.2s;
+}
+
+.license-content a:hover {
+  opacity: 0.85;
+}
+
+.license-content code {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.85em;
+  background-color: var(--muted);
+  color: var(--foreground);
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+}
+
+.license-content hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+

@@ -85,6 +85,10 @@ export function Footer() {
                 Privacy Policy
               </Link>
               <span className="text-muted-foreground">•</span>
+              <Link href="/legal/license/ssal-1.0" className="text-muted-foreground hover:text-foreground transition-colors">
+                License
+              </Link>
+              <span className="text-muted-foreground">•</span>
               <Link href="/about-us" className="text-muted-foreground hover:text-foreground transition-colors">
                 About Us
               </Link>

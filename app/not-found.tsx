@@ -52,6 +52,9 @@ export default function NotFound() {
             <Link href="/privacy-policy" className="text-sm text-primary hover:underline">
               Privacy Policy
             </Link>
+            <Link href="/legal/license/ssal-1.0" className="text-sm text-primary hover:underline">
+              License
+            </Link>
           </div>
         </div>
       </div>
