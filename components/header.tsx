@@ -34,7 +34,7 @@ export function Header() {
               Features
             </Link>
             <Link
-              href="https://initializer.stacksaga.org"
+              href="https://init.stacksaga.org"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
@@ -106,7 +106,7 @@ export function Header() {
               Features
             </Link>
             <Link
-              href="https://initializer.stacksaga.org"
+              href="https://init.stacksaga.org"
               target="_blank"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
