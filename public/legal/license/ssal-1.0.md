@@ -24,7 +24,7 @@ Subject to the terms and limitations of this License, Licensor grants You a non-
 
 ## Limitations
 
-1. **No Modification.** You may not modify, decompile, disassemble, reverse-engineer, or otherwise attempt to derive or reconstruct the source code of the Software, except to the limited extent such a restriction is prohibited by applicable law. If You believe You have found a defect, You must report it via the public issue tracker at https://github.com/stacksaga/stacksaga-community/issues. You may not create or distribute a modified, patched, or forked version of the Software, whether privately within Your organization or publicly.
+1. **No Modification.** You may not modify, adapt, translate, patch, fork, or create derivative works of the Software. You may not decompile, disassemble, reverse-engineer, or otherwise attempt to derive or reconstruct the source code of the Software, except to the extent that such restriction is prohibited by applicable law. You may not create or distribute any modified, patched, forked, or derivative version of the Software.
 
 2. **No Standalone Redistribution.** You may not host, mirror, cache, or republish the Software — in original or any other form — on any package repository, artifact registry, or distribution channel other than the official Maven Central coordinates published by Licensor.
 
