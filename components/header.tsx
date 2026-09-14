@@ -55,7 +55,7 @@ export function Header() {
               GitHub
             </Link>
           </Button>
-          <Button
+          {/*<Button
             variant="outline"
             size="sm"
             className="gap-2 border-primary/20 hover:bg-primary/10 bg-transparent"
@@ -65,7 +65,7 @@ export function Header() {
               <Heart className="h-4 w-4 fill-primary text-primary" />
               Donate
             </Link>
-          </Button>
+          </Button>*/}
           <Button size="sm" asChild>
             <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
               Get Started
@@ -127,7 +127,7 @@ export function Header() {
                   GitHub
                 </Link>
               </Button>
-              <Button
+              {/*<Button
                 variant="outline"
                 size="sm"
                 className="gap-2 border-primary/20 hover:bg-primary/10 bg-transparent justify-start"
@@ -137,7 +137,7 @@ export function Header() {
                   <Heart className="h-4 w-4 fill-primary text-primary" />
                   Donate
                 </Link>
-              </Button>
+              </Button>*/}
               <Button size="sm" asChild>
                 <Link href="https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html" target="_blank">
                   Get Started
