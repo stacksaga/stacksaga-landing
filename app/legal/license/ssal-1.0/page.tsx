@@ -11,6 +11,16 @@ export const metadata: Metadata = {
   title: "StackSaga Artifact License 1.0 (SSAL-1.0) | StackSaga",
   description:
     "Official StackSaga Artifact License 1.0 (SSAL-1.0) governing the binary artifacts distributed under the org.stacksaga group ID on Maven Central.",
+  keywords: [
+    "StackSaga license",
+    "SSAL-1.0",
+    "StackSaga Artifact License",
+    "Zoftstack Lanka license"
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
   alternates: {
     canonical: "https://www.stacksaga.org/legal/license/ssal-1.0",
   },

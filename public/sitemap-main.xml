@@ -5,24 +5,21 @@
     <url>
         <loc>https://www.stacksaga.org/</loc>
         <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+        <priority>1.0</priority>
     </url>
 
     <!-- About -->
     <url>
         <loc>https://www.stacksaga.org/about-us</loc>
         <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+        <priority>0.7</priority>
     </url>
 
     <!-- Privacy -->
     <url>
         <loc>https://www.stacksaga.org/privacy-policy</loc>
         <lastmod>2026-06-20T00:00:00+00:00</lastmod>
-    </url>
-
-    <!-- License -->
-    <url>
-        <loc>https://www.stacksaga.org/legal/license/ssal-1.0</loc>
-        <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+        <priority>0.3</priority>
     </url>
 
 </urlset>
