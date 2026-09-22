@@ -22,4 +22,11 @@
         <priority>0.3</priority>
     </url>
 
+    <!-- License -->
+    <url>
+        <loc>https://www.stacksaga.org/legal/license/ssal-1.0</loc>
+        <lastmod>2026-09-18T00:00:00+00:00</lastmod>
+        <priority>0.1</priority>
+    </url>
+
 </urlset>

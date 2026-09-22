@@ -46,8 +46,37 @@ export default async function LicensePage() {
   
   const htmlContent = await marked.parse(rawMarkdown)
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.stacksaga.org"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Legal",
+        "item": "https://www.stacksaga.org"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "StackSaga Artifact License 1.0 (SSAL-1.0)",
+        "item": "https://www.stacksaga.org/legal/license/ssal-1.0"
+      }
+    ]
+  }
+
   return (
     <div className="min-h-screen bg-background flex flex-col justify-between">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="container mx-auto max-w-4xl px-4 py-12 flex-1">
         <div className="flex items-center justify-between gap-4 mb-8">
           <Link

@@ -76,6 +76,44 @@ export const viewport: Viewport = {
     themeColor: "#28b76b",
 }
 
+const siteNavigationSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://www.stacksaga.org/#website",
+            "url": "https://www.stacksaga.org",
+            "name": "StackSaga",
+            "description": "StackSaga is the ultimate Saga orchestration solution for Spring Boot microservices.",
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "name": "Documentation",
+            "url": "https://docs.stacksaga.org",
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "name": "Features",
+            "url": "https://www.stacksaga.org/#features",
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "name": "Frameworks",
+            "url": "https://www.stacksaga.org/#frameworks",
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "name": "Initializer",
+            "url": "https://init.stacksaga.org",
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "name": "About Us",
+            "url": "https://www.stacksaga.org/about-us",
+        },
+    ],
+}
+
 export default function RootLayout({
                                        children,
                                    }: Readonly<{
@@ -84,6 +122,10 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationSchema) }}
+        />
         <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-LJFGXZ1SXD"
             strategy="afterInteractive"
